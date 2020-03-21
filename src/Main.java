@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         printNTimes("Hello", 8);
         printOTimes("Gurdip", 7);
@@ -10,7 +10,8 @@ public class Main {
 
     /**
      * Create a message multiple Time
-     * @param content show what should display
+     *
+     * @param content       show what should display
      * @param numberOfTimes show how often it should repeat
      */
     private static void printOTimes(String content, int numberOfTimes) {
@@ -21,7 +22,8 @@ public class Main {
 
     /**
      * Display message, numTimes times, one message per line.
-     * @param message the message to be displayed
+     *
+     * @param message  the message to be displayed
      * @param numTimes number of times to display message
      */
     private static void printNTimes(String message, int numTimes) {
@@ -29,5 +31,6 @@ public class Main {
             System.out.println(message);
         }
     }
+
 
 }
